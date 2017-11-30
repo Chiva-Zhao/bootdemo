@@ -1,14 +1,14 @@
 package com.zzh.bootdemo.model;
 
-public class Email {
+public class JmsEmail {
 
     private String to;
     private String body;
 
-    public Email() {
+    public JmsEmail() {
     }
 
-    public Email(String to, String body) {
+    public JmsEmail(String to, String body) {
         this.to = to;
         this.body = body;
     }
@@ -31,7 +31,7 @@ public class Email {
 
     @Override
     public String toString() {
-        return String.format("Email{to=%s, body=%s}", getTo(), getBody());
+        return String.format("JmsEmail{to=%s, body=%s}", getTo(), getBody());
     }
 
 }

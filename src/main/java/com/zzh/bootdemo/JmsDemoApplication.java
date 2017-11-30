@@ -1,6 +1,6 @@
 package com.zzh.bootdemo;
 
-import com.zzh.bootdemo.model.Email;
+import com.zzh.bootdemo.model.JmsEmail;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jms.DefaultJmsListenerContainerFactoryConfigurer;
@@ -45,6 +45,6 @@ public class JmsDemoApplication {
 
         // Send a message with a POJO - the template reuse the message converter
         System.out.println("Sending an email message.");
-        jmsTemplate.convertAndSend("mailbox", new Email("info@example.com", "Hello"));
+        jmsTemplate.convertAndSend("mailbox", new JmsEmail("info@example.com", "Hello"));
     }
 }
