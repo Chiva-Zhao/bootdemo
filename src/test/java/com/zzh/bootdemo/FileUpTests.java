@@ -3,6 +3,7 @@ package com.zzh.bootdemo;
 import com.zzh.bootdemo.exception.StorageFileNotFoundException;
 import com.zzh.bootdemo.service.StorageService;
 import org.hamcrest.Matchers;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +27,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = FileUpApp.class)
 @AutoConfigureMockMvc
+@Ignore
 public class FileUpTests {
 
     @Autowired

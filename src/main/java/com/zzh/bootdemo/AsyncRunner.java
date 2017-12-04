@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.concurrent.CompletableFuture;
 
-@Component
+//@Component
 public class AsyncRunner implements CommandLineRunner {
     private static final Logger logger = LoggerFactory.getLogger(AsyncRunner.class);
     private final GitHubLookupService gitHubLookupService;

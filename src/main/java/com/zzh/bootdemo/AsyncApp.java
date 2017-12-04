@@ -7,8 +7,8 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
 import java.util.concurrent.Executor;
 
-@SpringBootApplication
-@EnableAsync
+//@SpringBootApplication
+//@EnableAsync
 public class AsyncApp {
     public static void main(String[] args) {
         SpringApplication.run(AsyncApp.class, args).close();

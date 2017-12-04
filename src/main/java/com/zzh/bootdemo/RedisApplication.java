@@ -15,7 +15,7 @@ import org.springframework.data.redis.listener.adapter.MessageListenerAdapter;
 
 import java.util.concurrent.CountDownLatch;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class RedisApplication {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(RedisApplication.class);

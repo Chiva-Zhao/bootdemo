@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import stockquote.wsdl.GetQuoteResponse;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class StockquoteApp {
     public static void main(String[] args) {
         SpringApplication.run(StockquoteApp.class, args);
