@@ -1,4 +1,4 @@
-package com.zzh;
+package com.zzh.queue;
 
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;

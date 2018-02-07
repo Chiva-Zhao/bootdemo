@@ -1,4 +1,4 @@
-package com.zzh;
+package com.zzh.queue;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
